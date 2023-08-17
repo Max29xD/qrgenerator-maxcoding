@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-/** @type {import('million')} */
+const million = require(million);
 
 const nextConfig = {}
 
