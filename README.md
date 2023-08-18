@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+	<img src="https://i.postimg.cc/rpjf1ZZF/logo-svg.png" alt="Logo" width="500"/>
+</p>
 
-## Getting Started
+# Generador de QR - React
 
-First, run the development server:
+- Esta aplicacion web se hizo para generar codigos QR personalizados con la tegnologia de ReactJS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 📸 Captura
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+	<img src="https://github.com/Max29xD/qr-generator-maxcoding/blob/master/public/shots/507shots_so.png" alt="Generador de QR Screenshot" width="500"/>
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Sobre Mi
+Soy Desarrollador Frontend y Diseñador Gráfico
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 🛠 Habilidades
+HTML, CSS, Javascript, PHP, C++, Typescript, React, Svelte, Qwik, Next, Astro, SASS, Tailwind, Photoshop, Illustrator, After Effect
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_web_page-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://marcosbonilla.ml/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/max29xd) [![Instagram](https://img.shields.io/badge/instagram-DE425E?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/marcos_lbb) [![Facebook](https://img.shields.io/badge/facebook-4267B2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/marcoslbb/)
