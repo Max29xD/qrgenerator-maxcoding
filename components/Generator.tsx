@@ -1,13 +1,13 @@
 'use client'
 
-import { useState } from 'react'
+import { SetStateAction, useState } from 'react'
 import { QRCode } from 'react-qrcode-logo'
-import { Colorful } from '@uiw/react-color'
+import ColorPicker from 'react-pick-color'
 
 export default function Generator() {
   const [textInput, setTextInput] = useState('')
   const [logoImage, setLogoImage] = useState('logo.png')
-  const [hex, setHex] = useState('#5720ff')
+  const [color, setColor] = useState('#5720ff')
 
   const textDefault = 'www.marcosbonilla.ml'
 
@@ -71,15 +71,20 @@ export default function Generator() {
             Arrastra o haz click para seleccionar un foto
           </p>
         </div>
-        {/* <Colorful
-          style={{ width: '100%' }}
-          className='border-2 border-dotted border-white p-6 rounded-3xl'
-          color={hex}
-          disableAlpha
-          onChange={color => {
-            setHex(color.hex)
+        <ColorPicker
+          theme={{
+            background: 'transparent',
+            borderColor: '#fff',
+            borderRadius: '1rem',
+            width: '100%',
           }}
-        /> */}
+          hideAlpha
+          hideInputs
+          color={color}
+          onChange={(color: { hex: SetStateAction<string> }) => {
+            setColor(color.hex)
+          }}
+        />
       </div>
       <div className='grid bg-black border rounded-3xl p-2'>
         <QRCode
@@ -88,7 +93,7 @@ export default function Generator() {
           size={357}
           ecLevel='H'
           bgColor='#000000'
-          fgColor={hex}
+          fgColor={color}
           logoImage={logoImage}
           logoWidth={80}
           qrStyle='dots'

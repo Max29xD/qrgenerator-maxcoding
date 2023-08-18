@@ -11,8 +11,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Qr Generator - Maxcoding',
-  description: 'Qr Generator Maxcoding'
+  title: 'QR Generator - Maxcoding',
+  description: 'QR Generator Maxcoding'
 }
 
 export default function RootLayout({
