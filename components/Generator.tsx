@@ -90,7 +90,7 @@ export default function Generator() {
         <QRCode
           id='qr'
           value={textInput === '' ? textDefault : textInput}
-          size={357}
+          size={400}
           ecLevel='H'
           bgColor='#000000'
           fgColor={color}
