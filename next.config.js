@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
 const million = require('million/compiler');
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 }
