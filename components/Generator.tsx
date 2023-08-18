@@ -82,7 +82,7 @@ export default function Generator() {
         />
       </div>
       <div className='grid bg-black border rounded-3xl p-2'>
-        <QRCode
+        {/* <QRCode
           id='qr'
           value={textInput === '' ? textDefault : textInput}
           size={357}
@@ -93,7 +93,7 @@ export default function Generator() {
           logoWidth={80}
           qrStyle='dots'
           eyeRadius={5}
-        />
+        /> */}
         <button
           onClick={downloadQR}
           className='border-2 border-dotted text-white border-white  hover:text-max hover:border-max font-bold py-2 px-4 rounded-3xl transition-colors duration-300'
