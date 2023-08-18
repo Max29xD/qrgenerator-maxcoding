@@ -1,9 +1,11 @@
-import Generator from "@/components/Generator";
+'use client'
+
+import Generator from '@/components/Generator'
 
 export default function Home() {
   return (
     <main>
-      hola
+      <Generator />
     </main>
-  );
+  )
 }
