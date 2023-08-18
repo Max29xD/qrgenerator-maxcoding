@@ -1,3 +1,4 @@
+import Generator from '@/components/Generator'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
@@ -15,14 +16,14 @@ export const metadata: Metadata = {
   description: 'Qr Generator Maxcoding'
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout() {
   return (
-    <html lang="es">
-      <body className={poppins.className}>{children}</body>
+    <html lang='es'>
+      <body className={poppins.className}>
+        <main>
+          <Generator />
+        </main>
+      </body>
     </html>
   )
 }
