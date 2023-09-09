@@ -15,7 +15,7 @@ export default function Generator() {
   const [correction, setCorrection] = useState<'M' | 'L' | 'Q' | 'H'>('M')
   const [logoSize, setLogoSize] = useState<number>(80)
   const [colorQr, setColorQr] = useState<string>('#5720ff')
-  const [colorBg, setColorBg] = useState<string>('#00000000')
+  const [colorBg, setColorBg] = useState<string>('#ffffff')
   const [colorCheck, setColorCheck] = useState<string>('qr')
 
   const textDefault = 'https://maxcoding.vercel.app/'
@@ -61,7 +61,9 @@ export default function Generator() {
                 : setColorBg(color.hex)
             }}
           />
-          <div className='flex gap-4 justify-center pb-2'>
+          <div className='grid gap-2 justify-center pb-2'>
+            <span className='text-maxpurple-500 text-center'>Se recomienda utilizar colores claros para el fondo, para una mejor legibilidad del QR</span>
+            <div className='flex gap-4 justify-center'>
             <label className='text-white flex gap-2'>
               <input
                 type='radio'
@@ -86,6 +88,7 @@ export default function Generator() {
               />
               Fondo
             </label>
+            </div>
           </div>
         </div>
         <div className='grid gap-2 border border-white rounded-2xl w-full p-2'>
