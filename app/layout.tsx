@@ -12,7 +12,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'QR Generator - Maxcoding',
-  description: 'QR Generator Maxcoding'
+  description: 'QR Generator Maxcoding',
+  manifest:'/manifest.webmanifest'
 }
 
 export default function RootLayout({
