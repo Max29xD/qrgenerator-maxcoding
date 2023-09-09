@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply grid place-items-center min-h-screen h-full w-full overflow-x-hidden bg-black p-6;
+    min-height: 100dvh !important;
   }
   #qr {
     width: 100% !important;
@@ -14,7 +15,17 @@
   ::-webkit-scrollbar {
     @apply w-0 hidden;
   }
-  .w-color-colorful{
+  .w-color-colorful {
     height: 100px !important;
+  }
+  body
+    > main
+    > slot
+    > div
+    > div.grid.bg-black.justify-items-center.gap-2.border.rounded-3xl.p-2
+    > div:nth-child(3)
+    > div:nth-child(1)
+    > div:nth-child(1) {
+    height: 150px !important;
   }
 }
