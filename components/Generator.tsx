@@ -61,8 +61,8 @@ export default function Generator() {
                 : setColorBg(color.hex)
             }}
           />
-          <div className='grid gap-2 justify-center pb-2'>
-            <span className='text-maxpurple-500 text-center'>Se recomienda utilizar colores claros para el fondo, para una mejor legibilidad del QR</span>
+          <div className='grid gap-2 justify-center p-2'>
+            <span className='text-white text-sm text-center'>Se recomienda utilizar colores claros para el fondo, para una mejor legibilidad del QR</span>
             <div className='flex gap-4 justify-center'>
             <label className='text-white flex gap-2'>
               <input
