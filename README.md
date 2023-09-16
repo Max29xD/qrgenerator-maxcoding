@@ -9,7 +9,7 @@
 ## 📸 Captura
 
 <p align="center">
-	<img src="public/1.webp" alt="Generador de QR Screenshot" width="500"/>
+	<img src="public/screen.png" alt="Generador de QR Screenshot" width="500"/>
 </p>
 
 ## 🚀 Sobre Mi
