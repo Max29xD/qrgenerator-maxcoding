@@ -9,7 +9,7 @@
 ## 📸 Captura
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Max29xD/qrgenerator-maxcoding/master/public/shots/273shots_so.png" alt="Generador de QR Screenshot" width="500"/>
+	<img src="public/shots/273shots_so.png" alt="Generador de QR Screenshot" width="500"/>
 </p>
 
 ## 🚀 Sobre Mi
