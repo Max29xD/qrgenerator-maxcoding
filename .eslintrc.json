@@ -1,9 +1,7 @@
 {
   "extends": [
-    "next/core-web-vitals",
-    "plugin:perfectionist/recommended-natural-legacy"
+    "next/core-web-vitals"
   ],
-  "plugins": ["perfectionist"],
   "rules": {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
