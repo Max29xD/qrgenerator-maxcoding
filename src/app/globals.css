@@ -28,4 +28,7 @@
     > div:nth-child(1) {
     height: 150px !important;
   }
+  :root {
+    --radius: 0.5rem;
+  }
 }

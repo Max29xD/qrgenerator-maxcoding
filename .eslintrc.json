@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:perfectionist/recommended-natural-legacy"
+  ],
+  "plugins": ["perfectionist"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/indent": "off",
+    "multiline-ternary": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@next/next/no-img-element": "off"
+  }
 }
